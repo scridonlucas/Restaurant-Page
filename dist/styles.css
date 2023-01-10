@@ -1,0 +1,31 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #6a9fa5;
+}
+
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #ea580c;
+  height: 30px;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #a3e635;
+  width: 50%;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
